@@ -33,7 +33,7 @@ public class _01Servlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.setAttribute( "intVal", new Integer(10) );
+		request.setAttribute( "intVal", new Integer(1000) );
 		request.setAttribute( "floatVal", 3.14 );
 		request.setAttribute( "boolVal", true );
 		request.setAttribute( "email", "kickscar@gmai.com" );
